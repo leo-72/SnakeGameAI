@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game AI</title>
+    <style type="text/css">
+    .left    { text-align: left; padding-left: 100px; padding-right: 100px;}
+    .right   { text-align: right; padding-left: 100px; padding-right: 100px;}
+    .center  { text-align: center;}
+    .justify { text-align: justify;}
+
+    html, body {
+        height: 100%;
+    }
+
+    html {
+        display: table;
+        margin: auto;
+    }
+    
+    body{
+        background-color: yellow;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: bold;
+        text-align: center;
+        color: green;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        text-align: center;
+        color: green;
+        font-size: 50px;
+    }
+    </style>
+</head>
+<body>
+    <p>Snake Game with AI</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="main.js"></script>
+    <script src="snake.js"></script>
+    <script src="vector.js"></script>
+    <script src="direction.js"></script>
+    <script src="food.js"></script>
+    <script src="djikstra.js"></script>
+</body>
+</html>
